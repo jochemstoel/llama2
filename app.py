@@ -8,7 +8,7 @@ app = Potassium("my_app")
 @app.init
 def init():
     tokenizer = AutoTokenizer.from_pretrained(
-        "daryl149/Llama-2-7b-chat-hf",
+        "TheBloke/airoboros-l2-70B-gpt4-1.4.1-GPTQ",
         use_cache="cache"
     )
     model = AutoModelForCausalLM.from_pretrained(
