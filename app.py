@@ -12,7 +12,7 @@ def init():
         use_cache="cache"
     )
     model = AutoModelForCausalLM.from_pretrained(
-        "daryl149/Llama-2-7b-chat-hf",
+        "TheBloke/airoboros-l2-70B-gpt4-1.4.1-GPTQ",
         torch_dtype=torch.bfloat16,
         low_cpu_mem_usage=True,
         use_cache="cache"
